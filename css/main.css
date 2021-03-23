@@ -1,3 +1,57 @@
+body {
+    margin: 0 auto;
+    width: 25%;
+}
+/*HEADER STYLES*/
+header {
+    background-color: green;
+    text-transform: uppercase;
+}
+
 h1 {
+    color: white;
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+}
+
+/*SKILLS SECTION STYLES*/
+.delete {
+    border: red solid;
+    background-color: red;
+    color: white;
+    height: 30px;
+}
+
+.skills {
+    display: flex;
+    margin: 10px;
+}
+
+p {
+    color: orange;
+    margin: 5px 0px 0px 20px;
+    font-size: 20px;
+}
+
+
+
+/*SUBMIT SECTION STYLES*/
+.esubmitSection {
+    display: flex;
+}
+input {
+    border: green 2px solid;
+    width: 65%;
+    margin-right: 5px;
+}
+
+.addSkill {
+    border: green 2px solid;
+    background-color: white;
     color: green;
+    font-size: 20px;
+    width: 25%;
+    margin-left: 5px;
+    text-transform: uppercase;
 }
