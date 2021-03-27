@@ -21,6 +21,7 @@ $(document).ready(function(){
 
 
     //AAU, I want to be able to remove an individual skill one at a time in case I make a mistake.
+    //Again, I know it doesnt work but I want to know how far off I am?
 
     $("#delete").on("click", function(){
         $("#delete li").remove
@@ -28,4 +29,4 @@ $(document).ready(function(){
     });
 
 
-});
+}); 
