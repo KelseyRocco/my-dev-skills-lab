@@ -4,7 +4,7 @@ body {
 }
 /*HEADER STYLES*/
 header {
-    background-color: green;
+    background-color: #8cd98c;
     text-transform: uppercase;
 }
 
@@ -21,37 +21,54 @@ h1 {
     background-color: red;
     color: white;
     height: 30px;
+    margin-right: 10px;
 }
 
 .skills {
-    display: flex;
     margin: 10px;
 }
 
-p {
+ul {
     color: orange;
-    margin: 5px 0px 0px 20px;
     font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    margin: 5px 5px 5px 0px;
 }
 
 
+.list {
+    margin: 50px 0;
+}
+
+.skills {
+    margin: 0;
+    
+}
 
 /*SUBMIT SECTION STYLES*/
-.esubmitSection {
+.submitSection {
     display: flex;
+    justify-content: space-between;
 }
+
 input {
-    border: green 2px solid;
-    width: 65%;
+    border: #8cd98c 2px solid;
+    width: 70%;
+    height: 25px;
     margin-right: 5px;
 }
 
-.addSkill {
-    border: green 2px solid;
+#addSkill {
+    border: #8cd98c 2px solid;
     background-color: white;
-    color: green;
-    font-size: 20px;
-    width: 25%;
+    color: #8cd98c;
+    font-size: 15px;
     margin-left: 5px;
+    padding: 5px;
     text-transform: uppercase;
 }

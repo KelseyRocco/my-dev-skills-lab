@@ -1,38 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--CSS STYLE SHEET-->
     <link rel = "stylesheet" href = "css/main.css">
+    <!--JQUERY-->
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <!--JAVASCRIPT-->
     <script defer src="js/main.js"></script>
 </head>
+
+
 <body>
     <header>
         <h1>My Developer Skills</h1>
     </header>
 
-<section>
-    <div class="skills">
-        <button class="delete">X</button>
-        <p>Cascading Style Sheets (CSS)</p>
-    </div>
-    
-    <div class="skills">
-        <button class="delete">X</button>
-        <p>Hypertext Markup Language (HTML)</p>
-    </div>
+<section class="list">
+    <ul id="skills">
+        <li>
+            <button class="delete">X</button>Cascading Style Sheets (CSS)
+        </li>
+        <li>
+            <button class="delete">X</button>Hypertext Markup Language (HTML)
+        </li>
+    </ul>
 </section>
 
-<section class="submitSection">
-    <input>
 
-    </input>
+
+    <input type="text" id="inputSkill"/>
 
     <button id="addSkill">
         Add Skill
